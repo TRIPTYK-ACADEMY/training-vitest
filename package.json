@@ -1,0 +1,29 @@
+{
+  "name": "training-vitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm tsx src/index.ts",
+    "test": "pnpm vitest",
+    "test:watch": "pnpm vitest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@koa/router": "^12.0.1",
+    "@types/koa": "^2.14.0",
+    "@types/koa__router": "^12.0.4",
+    "@vitest/coverage-v8": "^1.2.1",
+    "@vitest/ui": "^1.2.1",
+    "koa": "^2.15.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vitest": "^1.2.1"
+  },
+  "dependencies": {
+    "koa-body": "^6.0.1"
+  }
+}

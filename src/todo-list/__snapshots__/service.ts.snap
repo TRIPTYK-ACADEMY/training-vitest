@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Created TodoList must have a createdAt property 1`] = `
+{
+  "createdAt": 2020-01-01T00:00:00.000Z,
+  "id": Any<String>,
+  "name": "CCI",
+  "todos": [],
+}
+`;
